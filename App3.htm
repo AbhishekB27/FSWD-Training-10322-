@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App3</title>
+    <script defer src="/EventListeners.js"></script>
+    <style>
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap:5px;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            background-color: azure;
+        }
+        #child{
+            width: 400px;
+            height: 300px;
+            background-color: deepskyblue;
+            transition: all 1s;
+            cursor: pointer;
+        }
+        #child-2{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        /* #ch-1{
+            height: 80px;
+            width: 80px;
+            background-color: blueviolet;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello Programmer</h1>
+        <div id="child">
+            <!-- <div draggable="true" id="ch-1"></div> -->
+        </div>
+        <div id="child-2">
+            <div style="text-align: center;">
+                <span id="xcord"></span>
+                <span id="ycord"></span>
+            </div>
+            <button class="button" style="cursor: pointer;">Click Me</button>
+            <div> 
+            <button id="left">Move Left</button>    
+            <button id="center">Center</button>  
+            <button id="right">Move Right</button>  
+        </div>
+        </div>
+    </div>
+</body>
+</html>
