@@ -1,0 +1,28 @@
+{
+  "name": "kartiksir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhishekB27/FSWD-Training-10322-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhishekB27/FSWD-Training-10322-/issues"
+  },
+  "homepage": "https://github.com/AbhishekB27/FSWD-Training-10322-#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
