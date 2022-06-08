@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/AbhishekB27/FSWD-Training-10322-#readme",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
